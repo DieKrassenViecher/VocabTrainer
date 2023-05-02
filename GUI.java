@@ -34,9 +34,8 @@ public class GUI
         title = new JLabel();
         title.setText("Vokabeltrainer");
         frame.add(title);
-        while(true) {
-            frame.requestFocusInWindow();
-        }
+        title.setVerticalAlignment(250);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     // Dienste
