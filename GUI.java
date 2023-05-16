@@ -23,7 +23,9 @@ public class GUI
     // Attribute
     private JFrame frame;
     private JLabel title;
-    
+    private JTextField eingabeText;
+    private JLabel ausgabeText;
+    private JButton übernehmen;
     // Konstruktor
     public GUI()
     {
@@ -33,9 +35,20 @@ public class GUI
         frame.setVisible(true);
         title = new JLabel();
         title.setText("Vokabeltrainer");
+        title.setLocation(250, 200);
         frame.add(title);
-        title.setVerticalAlignment(250);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ausgabeText = new JLabel();
+        ausgabeText.setLocation(500, 500);
+        ausgabeText.setSize(200, 20);
+        ausgabeText.setVisible(true);
+        ausgabeText.setOpaque(true);
+        ausgabeText.setBackground(Color.white);
+        ausgabeText.setForeground(Color.red);
+        eingabeText = new JTextField();
+        eingabeText.setLocation(30, 60);
+        eingabeText.setSize(200, 30);
+        eingabeText.setVisible(true);
     }
 
     // Dienste
