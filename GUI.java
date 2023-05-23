@@ -30,27 +30,30 @@ public class GUI
     public GUI()
     {
         this.frame = new JFrame();
-        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setMinimumSize(createSize(500, 500));
         frame.setVisible(true);
         title = new JLabel();
         title.setText("Vokabeltrainer");
-        title.setLocation(250, 200);
+        title.setSize(50, 55);
+        title.setLocation(frame.getWidth()/2, 100);
+        title.setOpaque(true);
+        title.setVisible(true);
         frame.add(title);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ausgabeText = new JLabel();
         ausgabeText.setLocation(500, 500);
         ausgabeText.setSize(200, 20);
-        ausgabeText.setVisible(true);
+        ausgabeText.setVisible(false);
         ausgabeText.setOpaque(true);
         ausgabeText.setBackground(Color.white);
         ausgabeText.setForeground(Color.red);
-        eingabeText = new JTextField();
+        eingabeText = new JTextField("");
         eingabeText.setLocation(30, 60);
-        eingabeText.setSize(200, 30);
+        eingabeText.setSize(20, 30);
         eingabeText.setVisible(true);
+        eingabeText.setOpaque(true);
         frame.add(ausgabeText);
         frame.add(eingabeText);
+        
         
     }
 
