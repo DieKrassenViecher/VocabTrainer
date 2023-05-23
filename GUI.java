@@ -49,6 +49,9 @@ public class GUI
         eingabeText.setLocation(30, 60);
         eingabeText.setSize(200, 30);
         eingabeText.setVisible(true);
+        frame.add(ausgabeText);
+        frame.add(eingabeText);
+        
     }
 
     // Dienste
