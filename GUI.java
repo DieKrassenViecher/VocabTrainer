@@ -67,6 +67,13 @@ public class GUI
         eingabeText.setLocation(30, 60);
         eingabeText.setSize(200, 30);
         eingabeText.setVisible(true);
+        eingabeText.addActionListener(new ActionListener()
+        {
+           public void actionPerformed(ActionEvent event)
+           {
+               übernehmen.doClick();
+           }
+        });
         übernehmen = new JButton("Übernehmen?");
         übernehmen.setLocation(30, 100);
         übernehmen.setSize(200, 30);
@@ -82,13 +89,11 @@ public class GUI
                         ausgabeText.setForeground(Color.green);
                         übernehmen.setText("Weiter?");
                         eingabeText.setText("");
-                        eingabeText.disable();
                     } else {
-                        ausgabeText.setText("Leider Falsch! :(");
+                        ausgabeText.setText("Leider Falsch: " + Vokabeln.loadedWords.get(0).Fremdwort);
                         ausgabeText.setForeground(Color.red);
                         übernehmen.setText("Weiter?");
                         eingabeText.setText("");
-                        eingabeText.disable();
                     }
                 } else if(übernehmen.getText().equals("Weiter?")) {
                     Vokabeln vok = Vokabeln.loadedWords.get(0);
@@ -96,7 +101,6 @@ public class GUI
                     Vokabeln.loadedWords.add(vok);
                     ausgabeText.setText("Übersetze: " + Vokabeln.loadedWords.get(0).Deutschwort);
                     ausgabeText.setForeground(Color.black);
-                    eingabeText.enable();
                     eingabeText.setText("");
                     übernehmen.setText("Übernehmen?");
                 }
@@ -122,6 +126,13 @@ public class GUI
         eingabeText2.setLocation(400, 60);
         eingabeText2.setSize(200, 30);
         eingabeText2.setVisible(true);
+        eingabeText2.addActionListener(new ActionListener()
+        {
+           public void actionPerformed(ActionEvent event)
+           {
+               übernehmen2.doClick();
+           }
+        });
         übernehmen2 = new JButton("Weiter?");
         übernehmen2.setLocation(400, 100);
         übernehmen2.setSize(200, 30);
