@@ -14,7 +14,7 @@ Official VocabTrainer software made by [LUPLUV (aka Thore)](https://github.com/L
 
 Anforderungen:
 =================
-1) Du hast Java 8 installiert [Java 8 auf Oracle](https://www.oracle.com/de/java/technologies/javase/javase8-archive-downloads.html).
+1) Du hast mindestens Java 17 installiert [Java 17 auf Oracle](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 2) Um den Code zu editieren musst du die BlueJ IDE installiert haben [BlueJ Download](https://www.bluej.org/index.html).
  
   
