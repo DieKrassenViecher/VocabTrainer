@@ -44,3 +44,10 @@ Die Klasse Vokabeln ist zur Verwaltung der Vokabeln zuständig. Dort werden Voka
 Die Klasse DataStorage ist zur Speicherung in der Datei vokabeln.txt da. Sie beinhaltet eine Methode um Inhalt in die Datei zu speichern sowie eine um Inhalt aus der Datei auszulesen.
 
 Alle Klassen sind gut Kommentiert und sollten dadurch verständlich sein.
+
+## Arbeitsaufteilung
+Die Idee + Das Konzept haben wir alle zusammen entwickelt: Thore, Tommy, Nuri und Florian
+Der Code wurde hauptsächlich von Thore mit Hilfe von Tommy geschrieben.
+Die Dokumentation wurde von Thore verfasst.
+
+🥸
