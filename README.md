@@ -44,7 +44,7 @@ Die Klasse GUI ist für das User-Interface zuständig und umfasst alle wichtigen
 | Vokabeln                                                                                            |
 |-----------------------------------------------------------------------------------------------------|
 | getData()<br>Vokabeln(String Deutschwort, String Fremdwort)<br>loadWords()<br>addWord(Vokabeln vok) |
-| List<Vokabeln> loadedWords<br>DataStorage dataStorage<br>String Deutschwort<br>String Fremdwort     |
+| List\<Vokabeln\> loadedWords<br>DataStorage dataStorage<br>String Deutschwort<br>String Fremdwort     |
 
 | DataStorage                                     |
 |-------------------------------------------------|
