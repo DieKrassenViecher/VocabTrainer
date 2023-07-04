@@ -57,6 +57,19 @@ Die Klasse DataStorage ist zur Speicherung in der Datei vokabeln.txt da. Sie bei
 
 Alle Klassen sind gut Kommentiert und sollten dadurch verständlich sein.
 
+## Zeitplan
+Leider konnten wir den Zeitplan so nicht einhalten und mussten unsere Arbeitsschritte ein wenig spontan einteilen, da wir unsere Projekt und Code Struktur mehrmals umgebaut/neugemacht haben.<br>
+Originaler Zeitplan:
+| Woche | Aufgabe                                   |
+|-------|-------------------------------------------|
+| 1     | Ideenfindung                              |
+| 2     | Erste Klassen                             |
+| 3     | Eingabefelder und Abfragefelder (Teil 1)  |
+| 4     | Teil 2                                    |
+| 5     | Layout                                    |
+| 6     | Bugfixes (Bei unseren Skills nicht nötig) |
+| 7     | Testen                                    |
+
 ## Arbeitsaufteilung
 Der Code wurde von Thore und Tommy geschrieben.<br>
 Die Dokumentation wurde von Thore und Nuri verfasst.<br>
