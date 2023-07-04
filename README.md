@@ -59,6 +59,7 @@ Alle Klassen sind gut Kommentiert und sollten dadurch verständlich sein.
 
 ## Arbeitsaufteilung
 Der Code wurde von Thore und Tommy geschrieben.
-Die Dokumentation wurde von Thore verfasst.
+Die Dokumentation wurde von Thore und Nuri verfasst.
+Florian hat den Zeitplan entworfen.
 
-🥸
+🥖
