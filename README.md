@@ -58,8 +58,8 @@ Die Klasse DataStorage ist zur Speicherung in der Datei vokabeln.txt da. Sie bei
 Alle Klassen sind gut Kommentiert und sollten dadurch verständlich sein.
 
 ## Arbeitsaufteilung
-Der Code wurde von Thore und Tommy geschrieben.
-Die Dokumentation wurde von Thore und Nuri verfasst.
+Der Code wurde von Thore und Tommy geschrieben.<br>
+Die Dokumentation wurde von Thore und Nuri verfasst.<br>
 Florian hat den Zeitplan entworfen.
 
 🥖
