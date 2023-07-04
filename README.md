@@ -36,6 +36,20 @@ Auf der rechten Seite des Fensters können neue Vokabeln hinzugefügt werden. Im
 
 ### GUI.java
 Die Klasse GUI ist für das User-Interface zuständig und umfasst alle wichtigen Funktionen.
+| GUI                                                                                                                                                                                   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| main(String[] args)<br>GUI()                                                                                                                                                          |
+| JFrame fenster<br>JLabel ausgabeText<br>JTextField eingabeText<br>JButton uebernehmen<br>JLabel ausgabeText2<br>JTextField eingabeText2<br>JButton uebernehmen2<br>Vokabeln creating  |
+
+| Vokabeln                                                                                            |
+|-----------------------------------------------------------------------------------------------------|
+| getData()<br>Vokabeln(String Deutschwort, String Fremdwort)<br>loadWords()<br>addWord(Vokabeln vok) |
+| List<Vokabeln> loadedWords<br>DataStorage dataStorage<br>String Deutschwort<br>String Fremdwort     |
+
+| DataStorage                                     |
+|-------------------------------------------------|
+| DataStorage()<br>save(String content)<br>read() |
+| File storageFile                                |
 
 ### Vokabeln.java
 Die Klasse Vokabeln ist zur Verwaltung der Vokabeln zuständig. Dort werden Vokabeln gecacht, neue hinzugefügt und zugleich dient die Klasse als Datentyp für Vokabel Objekte.
