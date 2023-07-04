@@ -41,21 +41,19 @@ Die Klasse GUI ist für das User-Interface zuständig und umfasst alle wichtigen
 | main(String[] args)<br>GUI()                                                                                                                                                          |
 | JFrame fenster<br>JLabel ausgabeText<br>JTextField eingabeText<br>JButton uebernehmen<br>JLabel ausgabeText2<br>JTextField eingabeText2<br>JButton uebernehmen2<br>Vokabeln creating  |
 
+### Vokabeln.java
+Die Klasse Vokabeln ist zur Verwaltung der Vokabeln zuständig. Dort werden Vokabeln gecacht, neue hinzugefügt und zugleich dient die Klasse als Datentyp für Vokabel Objekte.
 | Vokabeln                                                                                            |
 |-----------------------------------------------------------------------------------------------------|
 | getData()<br>Vokabeln(String Deutschwort, String Fremdwort)<br>loadWords()<br>addWord(Vokabeln vok) |
 | List\<Vokabeln\> loadedWords<br>DataStorage dataStorage<br>String Deutschwort<br>String Fremdwort     |
 
+### DataStorage.java
+Die Klasse DataStorage ist zur Speicherung in der Datei vokabeln.txt da. Sie beinhaltet eine Methode um Inhalt in die Datei zu speichern sowie eine um Inhalt aus der Datei auszulesen.
 | DataStorage                                     |
 |-------------------------------------------------|
 | DataStorage()<br>save(String content)<br>read() |
 | File storageFile                                |
-
-### Vokabeln.java
-Die Klasse Vokabeln ist zur Verwaltung der Vokabeln zuständig. Dort werden Vokabeln gecacht, neue hinzugefügt und zugleich dient die Klasse als Datentyp für Vokabel Objekte.
-
-### DataStorage.java
-Die Klasse DataStorage ist zur Speicherung in der Datei vokabeln.txt da. Sie beinhaltet eine Methode um Inhalt in die Datei zu speichern sowie eine um Inhalt aus der Datei auszulesen.
 
 Alle Klassen sind gut Kommentiert und sollten dadurch verständlich sein.
 
