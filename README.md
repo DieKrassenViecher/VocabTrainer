@@ -1,6 +1,8 @@
 # VocabTrainer
 Official VocabTrainer software made by [LUPLUV (aka Thore)](https://github.com/LUPLUV) and Tommy
 
+See our Java Docs - [JDocs](https://diekrassenviecher.github.io/VocabTrainer/package-summary.html)
+
 
 ## Funktionen
 
