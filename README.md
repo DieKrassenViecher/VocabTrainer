@@ -22,7 +22,7 @@ Installations Anweisungen:
 =====================
 1) Lade dir die neueste Version des Programms von [Releases](https://github.com/DieKrassenViecher/VocabTrainer/releases/tag/1.0) herunter
 
-2) Führe das Programm mit java VocabTrainer.jar aus
+2) Führe das Programm mit java VocabTrainer.jar aus `java -jar VocabTrainer.jar`
 
 
 ## Bedienung
